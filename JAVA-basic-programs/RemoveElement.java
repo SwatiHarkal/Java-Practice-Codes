@@ -8,10 +8,10 @@ public class RemoveElement {
         int[] newArr = new int[arr.length-1];
 
         int element = 20;
-        for(int i=0, j=0;i<arr.length;i++){//i=2  j=1
-                    if(arr[i]!=element){
-                        newArr[j] = arr[i];//10 newArr[1] = arr[2] //30
-                        j++;
+        for(int i=0, j=0;i<arr.length;i++){
+            if(arr[i]!=element){
+                newArr[j] = arr[i];
+                j++;
             }
         }
         System.out.println("New Array is: " + Arrays.toString(newArr));
