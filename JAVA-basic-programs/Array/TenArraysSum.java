@@ -1,3 +1,5 @@
+package Array;
+
 public class TenArraysSum{
     public static void main(String args[]){
         int[] arr = {1,2,3,4,5,2,3,5,5};

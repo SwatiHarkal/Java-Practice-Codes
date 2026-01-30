@@ -1,30 +1,32 @@
-class Writer{
+package Inheritance.Hierachical;
+
+class Writer1{
 	void writes(){
 	System.out.println("Writer is writing book");
 	}
 }
 
-class Poet extends Writer {
+class Poet1 extends Writer1 {
 	void poety(){
 		System.out.println("Poet writing Poetry");
 	}
 }
 
-class Student extends Writer {
+class Student1 extends Writer1 {
 	void learn(){
 		System.out.println("Student is leraning");
 	}
 }
 
-public class Hiracical9{
+public class Hirachical9{
 	public static void main(String args[]){
 		System.out.println("Hiracical Inheritance");
-        Student obj = new Student();
+        Student1 obj = new Student1();
 		obj.writes();
-		obj.poety();
+		obj.learn();
 
-		Poet obj1 = new Poet();
+		Poet1 obj1 = new Poet1();
 		obj1.writes();
-        obj1.learn();
+        obj1.poety();
 	}
 }

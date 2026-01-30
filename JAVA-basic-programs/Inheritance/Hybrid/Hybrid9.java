@@ -1,10 +1,12 @@
-class Writer{
+package Inheritance.Hybrid;
+
+class Writer2{
 	void writes(){
 	System.out.println("Writer is writing book");
 	}
 }
 
-class Poet extends Writer {
+class Poet extends Writer2 {
 	void poety(){
 		System.out.println("Poet writing Poetry");
 	}
@@ -32,7 +34,7 @@ public class Hybrid9{
         obj.learn();
 
 		System.out.println("Object from Student2");
-        Student2 oj1 = new Student2();
+        Student2 obj1 = new Student2();
         obj1.writes();
         obj1.poety();
         obj1.play();

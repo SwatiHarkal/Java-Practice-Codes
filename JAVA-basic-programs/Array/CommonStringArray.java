@@ -1,3 +1,5 @@
+package Array;
+
 public class CommonStringArray {
     public static void main(String args[]){
         String[] str1 = {"abc","xyz","cde"};

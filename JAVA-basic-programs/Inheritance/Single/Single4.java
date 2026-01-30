@@ -1,10 +1,12 @@
-class Writer{
+package Inheritance.Single;
+
+class Writer4{
 	void writes(){
 	System.out.println("Writer is writing book");
 	}
 }
 
-class Poet extends Writer {
+class Poet extends Writer4 {
 	void poety(){
 		System.out.println("Poet writing Poetry");
 	}

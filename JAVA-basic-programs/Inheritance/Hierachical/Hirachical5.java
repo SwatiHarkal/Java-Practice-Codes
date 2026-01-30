@@ -1,4 +1,6 @@
-class GrandParent{
+package Inheritance.Hierachical;
+
+class GrandParent {
 	void A(){
 	System.out.println("Calling A");
 	}

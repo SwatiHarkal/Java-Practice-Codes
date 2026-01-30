@@ -1,10 +1,12 @@
-class Anchor{
+package Inheritance.Hybrid;
+
+class Anchor2{
 	void anchoring(){
 		System.out.println("Anchor is anchoring");
 	}
 }
 
-class Singer extends Anchor{
+class Singer extends Anchor2{
 	void sings(){
 	System.out.println("Singer is singing");
 	}
@@ -37,9 +39,9 @@ public class Hybrid8{
 		obj1.classical();
 
         System.out.println("Object from Dancer2");
-		Dancer1 obj1 = new Dancer1();
-		obj1.anchoring();
-		obj1.sings();
-		obj1.hiphop();
+		Dancer2 obj2 = new Dancer2();
+		obj2.anchoring();
+		obj2.sings();
+		obj2.hiphop();
 	}
 }

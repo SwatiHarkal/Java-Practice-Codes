@@ -1,16 +1,18 @@
-class GrandParent{
+package Inheritance.Hierachical;
+
+class GrandParent6 {
 	void car(){
 	System.out.println("Its Car");
 	}
 }
 
-class Parent extends GrandParent {
+class Parent6 extends GrandParent6 {
 	void vehical(){
 		System.out.println("Its Vehical");
 	}
 }
 
-class Child extends GrandParent {
+class Child61 extends GrandParent6 {
 	void thar(){
 		System.out.println("Its Thar");
 	}
@@ -19,11 +21,11 @@ class Child extends GrandParent {
 public class Hirachical6{
 	public static void main(String args[]){
 		System.out.println("Hirachical Inheritance");
-        Parent obj = new Parent();
+        Parent6 obj = new Parent6();
 		obj.car();
 		obj.vehical();
 
-		Child obj1 = new Child();
+		Child61 obj1 = new Child61();
 		obj1.car();
         obj1.thar();
 	}

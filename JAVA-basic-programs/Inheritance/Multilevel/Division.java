@@ -1,18 +1,20 @@
-class GrandParent{
+package Inheritance.Multilevel;
+
+class GrandParentDiv {
 	int div1(int a, int b){
 		int total = b / a;
 		return total;
 	}
 }
 
-class Parent extends GrandParent {
+class ParentDiv extends GrandParentDiv {
 	int div2(int c , int d){
 		int total = d / c;
 		return total;
 	}
 }
 
-class Child extends Parent {
+class ChildDiv extends ParentDiv {
 	int div3(int e , int f){
 		int total = f / e;
 		return total;
@@ -22,7 +24,7 @@ class Child extends Parent {
 public class Division{
 	public static void main(String args[]){
 		System.out.println("Division Using Multilevel Inheritance");
-		Child obj = new Child();
+		ChildDiv obj = new ChildDiv();
 		obj.div1(10,20);
 		obj.div2(2,40);
         obj.div3(4,24);

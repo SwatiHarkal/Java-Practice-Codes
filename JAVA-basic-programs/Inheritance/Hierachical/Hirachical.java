@@ -1,18 +1,20 @@
-class Add{
+package Inheritance.Hierachical;
+
+class Add1{
 	int sum1(int a, int b){
 		int total = a + b;
 		return total;
 	}
 }
 
-class Child1 extends Add {
+class Child1 extends Add1 {
 	int sum2(int c , int d){
 		int total = c+d;
 		return total;
 	}
 }
 
-class Child2 extends Add {
+class Child2 extends Add1 {
 	int sum3(int e , int f){
 		int total = e+f;
 		return total;
