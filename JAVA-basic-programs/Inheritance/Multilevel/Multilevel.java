@@ -1,16 +1,18 @@
-class GrandParent{
+package Inheritance.Multilevel;
+
+class GrandParentMulti{
 	void A(){
 	System.out.println("Calling A");
 	}
 }
 
-class Parent extends GrandParent {
+class ParentMulti extends GrandParentMulti {
 	void B(){
 		System.out.println("Calling B");
 	}
 }
 
-class Child extends Parent {
+class ChildMulti extends ParentMulti {
 	void C(){
 		System.out.println("Calling C");
 	}
@@ -19,11 +21,11 @@ class Child extends Parent {
 public class Multilevel{
 	public static void main(String args[]){
 		System.out.println("Multilevel Inheritance");
-        Parent obj = new Parent();
+        ParentMulti obj = new ParentMulti();
 		obj.A();
 		obj.B();
 
-		Child obj1 = new Child();
+		ChildMulti obj1 = new ChildMulti();
 		obj1.A();
 		obj1.B();
         obj1.C();

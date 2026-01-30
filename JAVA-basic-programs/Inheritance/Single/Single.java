@@ -1,10 +1,12 @@
-class Parent{
+package Inheritance.Single;
+
+class ParentSingle{
 	void A(){
 	System.out.println("Calling A");
 	}
 }
 
-class Child extends Parent {
+class ChildSingle extends ParentSingle {
 	void B(){
 		System.out.println("Calling B");
 	}
@@ -13,7 +15,7 @@ class Child extends Parent {
 public class Single{
 	public static void main(String args[]){
 		System.out.println("Single Inheritance");
-		Child obj = new Child();
+        ChildSingle obj = new ChildSingle();
 		obj.A();
 		obj.B();
 	}

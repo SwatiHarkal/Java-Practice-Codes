@@ -1,3 +1,5 @@
+package Array;
+
 public class SecondMaxMin{
     public static void main(String args[]){
         int[] arr = {2,4,8,6,9,7,1};

@@ -1,18 +1,20 @@
-class GrandParent{
+package Inheritance.Multilevel;
+
+class GrandParentSub{
 	int sub1(int a, int b){
 		int total = b - a;
 		return total;
 	}
 }
 
-class Parent extends GrandParent {
+class ParentSub extends GrandParentSub {
 	int sub2(int c , int d){
 		int total = d - c;
 		return total;
 	}
 }
 
-class Child extends Parent {
+class ChildSub extends ParentSub {
 	int sub3(int e , int f){
 		int total = f - e;
 		return total;
@@ -22,9 +24,9 @@ class Child extends Parent {
 public class Substraction{
 	public static void main(String args[]){
 		System.out.println("Substraction Using Multilevel Inheritance");
-		Child obj = new Child();
-		obj.sum1(10,20);
-		obj.sum2(30,40);
-        obj.sum3(4,5);
+		ChildSub obj = new ChildSub();
+		obj.sub1(10,20);
+		obj.sub2(30,40);
+        obj.sub3(4,5);
 	}
 }

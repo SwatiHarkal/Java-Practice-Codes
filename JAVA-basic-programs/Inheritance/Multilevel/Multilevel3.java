@@ -1,10 +1,12 @@
-class Anchor{
+package Inheritance.Multilevel;
+
+class Anchor3{
 	void anchoring(){
 		System.out.println("Anchor is anchoring");
 	}
 }
 
-class Singer extends Anchor{
+class Singer extends Anchor3{
 	void sings(){
 	System.out.println("Singer is singing");
 	}

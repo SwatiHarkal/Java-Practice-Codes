@@ -1,11 +1,13 @@
-class Add{
+package Inheritance.Single;
+
+class AddSingle{
 	int sum1(int a, int b){
 		int total = a + b;
 		return total;
 	}
 }
 
-class Child extends Add {
+class Child extends AddSingle {
 	int sum2(int c , int d){
 		int total = c+d;
 		return total;
