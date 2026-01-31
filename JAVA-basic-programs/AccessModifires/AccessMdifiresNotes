@@ -1,0 +1,18 @@
+Access modifier
+1)public
+2)default
+3)protected
+4)private
+
+class  => public, default, private(in case of inner classes)
+method => public, private, default, protected
+variables => public, private, default, protected
+
+note: when we do not specify any access modifiers, it is default access modifier.
+(in java 8 we have slight change here)
+
+class variables/methods  =>
+
+
+IS-A     => parent child or inheritance
+HAS-A    => usage
