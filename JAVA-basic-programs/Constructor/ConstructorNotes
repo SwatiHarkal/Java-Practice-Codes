@@ -22,11 +22,9 @@ Note: First line in any Constructor is a call to Parent class No-arg Constructor
 
 this => we can use this within same class only.
      => we can use super in IS-A relation only when we have one class for extends another class
-     => if we used this then we can't use super
-     => if we used super then we can't use this
+     => if we used this then we can't use super in same constructor
+     => if we used super then we can't use this in same constructor
      => first line is always for this/super keyword
-
-
 
 No-arg vs default constructor
 => we create no-arg constructor

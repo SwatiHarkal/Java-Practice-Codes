@@ -26,7 +26,7 @@ class LazyPerson extends Person {
         System.out.println("LazyPersoon Eats junk foods");
     }
     public void exercise() {
-        System.out.println("LazyPersoon rarely exercising or being physically active");
+        System.out.println("LazyPerson rarely exercising or being physically active");
     }
 }
 

@@ -1,0 +1,10 @@
+What is Interface?
+=>  An Interface is an abstract tpe that defines a sett of methods.
+=>  It is a 100% abstraction, and used to achieve multiple inheritance
+=>  If we implements class from interfaces then need to implement all present abstract methods to concrete class
+
+
+relationship between interface and class
+1) 1 class extends 1 class
+2) 1 class implements multiple interfaces
+3) 1 interface extends multiple interfaces
