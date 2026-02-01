@@ -27,7 +27,7 @@ class Multiplication extends Addition {
     public Multiplication(int a, int b) {
         super(a,b);
         int c = a * b;
-        System.out.println("Multiplicattion: " +c);
+        System.out.println("Multiplication: " +c);
     }
 }
 
