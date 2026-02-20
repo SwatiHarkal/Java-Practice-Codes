@@ -1,0 +1,11 @@
+A static method (class method) cannot be overridden in Java.
+But if a static method defined in the parent class is redefined in a child class,
+the child class’s method hides the method defined in the parent class.
+
+This mechanism is called method hiding in Java or function hiding.
+
+In method hiding concept, the method call depends on the reference type.
+It is also known as compile-time polymorphism.
+
+Rules:
+1. Both parent and child class methods must be static.

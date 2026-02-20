@@ -1,0 +1,19 @@
+If we create a different objects it creates separate instances for each
+
+To access instance methods we need an object of that class
+
+instance blocks => 1.does not have any name no need to add any keyword as well
+                   2.no need to call it explicitly
+                   3.when we want to execute any code after object creation but
+                     before constructor get called we use instance blocks
+                   4.all instance blocks calls first in top to bottom order then main method
+                     starts execution
+                   5. instance blocks are executed every time an object of the class
+                      is created. means it's depend on how many objects we are creating
+                      e.g if we create 2 objects instance blocks executes 2 times
+
+executiopn steps
+static block => instance blocks => main method
+
+instance methods => 1. it has a name
+                    2. need to call in main method and need to create object of class
