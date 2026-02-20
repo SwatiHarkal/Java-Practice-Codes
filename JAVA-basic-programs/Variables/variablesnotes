@@ -1,0 +1,10 @@
+types of variables
+1. Instance = Accessible anywhere in same class
+2. Local = Accessible only within same method
+3. static
+
+instance accessed using object, default value given by constructor
+
+instance variables get defaults values after object creation from constructor
+
+JVM provides default values to static variables at the run time

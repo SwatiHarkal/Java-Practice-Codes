@@ -1,0 +1,33 @@
+When the method of super/parent class  is overridden in the child/subclass to
+provide more specific implementation, it is called method overriding.
+
+so child class has must be same methods signature, return type, list of parameters,
+access modifiers
+
+When to Use Method Overriding in Java?
+Method overriding in Java programming is useful when a subclass needs to provide
+a specific implementation of a method that is already defined in its superclass.
+It enables runtime polymorphism.
+
+allows behavior to be customized in subclasses without modifying
+the existing superclass code.
+
+Rules:
+1.The name of subclass method must have exactly the same name as the superclass method name.
+2.The parameter list (types or order) of the subclass method must be the same
+  as the superclass method parameters. In overriding, method name and argument types
+  must be matched. If the method name is the same but the parameters differ,
+  it’s method overloading, not overriding.
+3.Must be Is-A relationship (Inheritance). Overriding is only possible through inheritance.
+  The subclass must inherit the method from the superclass.
+4.Subclass method’s return type must be the same as the superclass method return type.
+  But this rule is applicable until the Java 1.4 version only.
+  From the Java 1.5 version onwards, covariant return types are also allowed.
+5.Subclass method’s access modifier must be the same or more permissive than the superclass
+  method access modifier. In other words, the overriding method cannot be
+  more restrictive than the overridden method. It can be the same or less restrictive.
+parent => child
+public => public
+protected => public, protected
+default  => default, public, protected
+private =>private methods can not be override,cause it is accessible only within same class.

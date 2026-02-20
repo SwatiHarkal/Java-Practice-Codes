@@ -1,0 +1,22 @@
+static is a keyword
+
+All objects of a class share same copy of static variables
+
+To access static block/method we don't need an object of that class
+
+in static method we can't access non-static/instance variables/fields directly
+if we want to access then we need to create object of a class
+
+no need to create a object to call static block, it will call independently.
+
+static blocks => 1.does not have any name use only static keyword
+                 2.no need to call it explicitly
+                 3.when we want to execute any code before main method
+                   starts execution we use statics block
+                 4.all static blocks calls first in top to bottom order ten main method starts
+                   execution
+                 5. it gets executed only once by JVM when the class is loaded into memory by ClassLoader
+
+static methods => 1. it has a name
+                  2. need to call in main method but no need to create object
+

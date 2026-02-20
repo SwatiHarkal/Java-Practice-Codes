@@ -1,0 +1,14 @@
+When a class has more than one method having the same name
+but different in parameters, it is called method overloading in Java.
+
+Argument type must be different (at least order) in overloading.
+
+The signature of the overloaded method must be different.
+
+In method overloading, the return type can be the same or different.
+
+Method overloading is generally performed in the same class.
+
+Private, static, and final method can be overloaded in Java.
+
+In overloading, access modifiers can be anything or different.
