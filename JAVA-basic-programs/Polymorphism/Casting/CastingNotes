@@ -1,0 +1,11 @@
+Converting one datatype into other
+
+Widening: converting lower type to greater types (implicit)
+Narrowing: converting higher to lower type (explicit)
+
+types:
+     1. Upcasting
+        parent class(reference) => new child class(object)
+
+     2. Downcasting
+        child class => (child class) new parent class

@@ -1,0 +1,13 @@
+Wrapping up data in single unit which is class.
+Encapsulation is all about hiding data members/variables.
+
+
+Abstraction vs Encapsulation
+  Abstraction hides method implementation
+  Encapsulation hides data members
+
+
+With the help of getter and setter method we can use encapsulation
+
+if we have multiple private variables and we have to access all then we can go with the constructor
+and if we have to access specific variables then we can go with te setter.

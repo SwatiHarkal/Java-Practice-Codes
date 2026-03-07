@@ -1,6 +1,6 @@
 types of variables
 1. Instance = Accessible anywhere in same class
-2. Local = Accessible only within same method
+2. Local = Accessible only within same method, we can not use access modifiers with local variables
 3. static
 
 instance accessed using object, default value given by constructor

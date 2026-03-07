@@ -1,4 +1,4 @@
-package AccessModifires.P1;
+package AccessModifiers.P1;
 //protected same package non-subclass
 
 public class ProtectedInSubclass {
