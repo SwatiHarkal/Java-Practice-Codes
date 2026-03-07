@@ -1,4 +1,4 @@
-package AccessModifires.P1;
+package AccessModifiers.P1;
 
 public class ProtectedClass {
     protected int a = 10;

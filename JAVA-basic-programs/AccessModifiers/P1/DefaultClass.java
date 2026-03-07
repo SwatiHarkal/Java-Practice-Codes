@@ -1,4 +1,4 @@
-package AccessModifires.P1;
+package AccessModifiers.P1;
 
 class Display{
     void show(){

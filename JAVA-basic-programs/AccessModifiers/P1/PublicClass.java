@@ -1,7 +1,7 @@
-package AccessModifires.P1;
+package AccessModifiers.P1;
 
-class Person2 {
-    private String name;
+class Person {
+    public String name;
 
     public void setName(String name) {
         this.name = name;
@@ -12,12 +12,11 @@ class Person2 {
     }
 }
 
-
-public class PrivateClass {
+public class PublicClass {
     public static void main(String[] args) {
-        Person2 person = new Person2();
+        Person person = new Person();
 
         person.setName("Swati");
-        System.out.println(person.getName());
+        System.out.println(person.name);
     }
 }
