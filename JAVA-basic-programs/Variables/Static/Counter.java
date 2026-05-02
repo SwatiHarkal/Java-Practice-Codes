@@ -5,7 +5,6 @@ package Variables.Static;
 // Print the value of count after creating several objects.
 
 public class Counter {
-
     public static int count = 0;
 
     public Counter() {

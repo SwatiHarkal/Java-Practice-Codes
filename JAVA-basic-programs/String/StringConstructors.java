@@ -31,6 +31,8 @@ public class StringConstructors {
         char chars1[] = { 'w', 'i', 'n', 'd', 'o', 'w', 's'  };
         String str = new String(chars1, 2, 3);
         System.out.println(str);
+        System.out.println("character at "+str.charAt(2));
+
 
         //5. String(byte byteArr[ ]): This type of string constructor constructs
         // a new string object by decoding the given array of bytes

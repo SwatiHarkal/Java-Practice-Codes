@@ -113,7 +113,7 @@ public class ArrayPrograms {
             }
         }
         for(int i = 0; i<arr1.length;i++){
-            if((arr1[i]!=max)&& arr1[i]!=min){
+            if((arr1[i]!=max) && arr1[i]!=min){
                 sum +=arr1[i];
             }
         }

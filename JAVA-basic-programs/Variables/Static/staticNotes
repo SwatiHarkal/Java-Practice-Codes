@@ -13,7 +13,7 @@ static blocks => 1.does not have any name use only static keyword
                  2.no need to call it explicitly
                  3.when we want to execute any code before main method
                    starts execution we use statics block
-                 4.all static blocks calls first in top to bottom order ten main method starts
+                 4.all static blocks calls first in top to bottom order then main method starts
                    execution
                  5. it gets executed only once by JVM when the class is loaded into memory by ClassLoader
 
