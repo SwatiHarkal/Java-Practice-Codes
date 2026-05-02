@@ -23,7 +23,7 @@ public class CastingClass extends CastingParent {
         a.A(); //Child class
 
         CastingClass c = (CastingClass) a;  //downcasting but added object of reference a
-        // CastingClass c = (CastingClass) new CastingParent
+        // CastingClass c = (CastingClass) new CastingClass
         c.A();
 
         CastingClass b = (CastingClass) new CastingParent(); //dowcasting

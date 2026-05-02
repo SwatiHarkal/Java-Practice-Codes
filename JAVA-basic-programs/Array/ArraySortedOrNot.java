@@ -23,7 +23,7 @@ public class ArraySortedOrNot {
             System.out.println("Sorted array");
         }
         else {
-            System.out.println("Array is nor sorted ");
+            System.out.println("Array is not sorted ");
         }
     }
 }
