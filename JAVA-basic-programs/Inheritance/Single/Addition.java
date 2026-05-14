@@ -7,6 +7,7 @@ class AddSingle{
 	}
 }
 
+
 class Child extends AddSingle {
 	int sum2(int c , int d){
 		int total = c+d;
