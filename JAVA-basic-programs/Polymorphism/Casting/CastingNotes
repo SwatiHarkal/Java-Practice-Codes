@@ -5,7 +5,7 @@ Narrowing: converting higher to lower type (explicit)
 
 types:
      1. Upcasting
-        parent class(reference) => new child class(object)
+        parent class (reference) => new child class(object)
 
      2. Downcasting
         child class => (child class) new parent class

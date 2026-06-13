@@ -16,6 +16,7 @@ public final class ImmuatableClass {
     public ImmuatableClass(String name, int age, Mutable abc) {
         this.name = name;
         this.age = age;
+        this.abc = abc;
     }
 
     public String getName() {
@@ -24,6 +25,10 @@ public final class ImmuatableClass {
 
     public int getAge() {
         return age;
+    }
+
+    public Mutable getAbc() {
+        return abc;
     }
 
     public static void main(String[] args) {
