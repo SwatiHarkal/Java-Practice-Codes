@@ -1,0 +1,6 @@
+Contract between equals and hashcode methods
+
+If 2 objects are equals by equals methods then their hashcode must be same.
+If 2 objects are having same hashcode then it's not mandatory that those are equals or may be not.
+
+when keys are different having same hashcode then hash collision happens

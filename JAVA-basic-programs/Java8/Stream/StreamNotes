@@ -1,0 +1,14 @@
+Characteristics of Java 8 Streams
+3.1) Streams are not the data structures
+  Streams doesn't stores the data. We can't add or remove elements from stream
+  Hence, they are not data structures. They are the just operations.
+
+3.2) Stream consumes a data source
+  Stream consumes a sources, perform operations on it and produces the result,
+  Source may be collection or array or an IO resource, but remember, stream doesn't modify the source.
+  They don't have their own source of data.
+
+3.3) Intermediate and terminal Operations
+   Most of the stream operations return another new stream and they can be chained together to form a pipeline of operations.
+   The operations which return stream themselves are called Intermediate Operations. e.g. filter(),distinct(),sorted().
+   The operations which return other than stream are called Terminal Operations. e.g. count(),min(),max().
