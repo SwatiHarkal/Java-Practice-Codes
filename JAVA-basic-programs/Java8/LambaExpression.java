@@ -1,4 +1,5 @@
 package Java8;
+// functional interface contains only one abstract method
 @FunctionalInterface
 interface Add {
     int addition(int a,int b);
